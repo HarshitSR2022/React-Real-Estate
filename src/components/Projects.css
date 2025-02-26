@@ -1,0 +1,78 @@
+.arrows{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 32px;
+}
+.arrows button{
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    display: none;
+}
+
+.images-container{
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    width: 1400px;
+    margin-bottom: 60px;
+    /* border: 2px solid; */
+    /* height: 800px; */
+}
+.images{
+    display: flex;
+    gap: 18px;
+    transition: ease-in-out;
+    transition-duration: 500ms;
+    margin-left: 70px;
+}
+
+.images img{
+    width: 400px;
+    height: 600px;
+    object-fit: contain;
+    padding-left: 10px;
+}
+
+.inside-map{
+    position: relative;
+    flex-shrink: 0;
+}
+.inside-map img{
+    object-fit: contain;
+    height: 500px;
+    width: 300px;
+    flex-shrink: 0;
+}
+.d{
+    position: absolute;
+    bottom: 20px;
+    background-color: white;
+    width: 220px;
+    left: 50px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px;
+}
+.t{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.baigan{
+    width: 100%;
+}
+.baigan img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}

@@ -1,0 +1,91 @@
+.footer{
+    padding: 10px;
+    background-color: #1a202c;
+    width: 100%;
+    overflow: hidden;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.footer2{
+    width: 550px;
+    padding: 10px 60px;
+}
+.footer2 p{
+    color: rgb(193, 193, 193);
+    margin-top: 5px;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding-left: 100px;
+}
+.footer3 ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer3 h3{
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.footer3 ul a{
+    color: rgb(193, 193, 193);
+    text-decoration: none;
+    margin: 5px;
+}
+.footer3 ul a:hover{
+    color: white;
+}
+.footer4 h3{
+    color: white;
+    margin-top: 10px;
+}
+.footer4 p{
+    color: rgb(193, 193, 193);
+    margin-top: 10px;
+}
+.footer4{
+    width: 550px;
+}
+.inputzz{
+    margin-top: 10px;
+}
+.inputzz input{
+    padding: 10px;
+    background-color: #2d333f;
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+    outline: none;
+}
+.inputzz button{
+    padding: 10px;
+    background-color: #2196F3;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.footer5 p{
+    color: rgb(193, 193, 193);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer5 p:hover{
+    color: white;
+}
+
+.footer5{
+    border-top: 1px solid rgb(193, 193, 193);
+    width: 1400px;
+    margin: auto;
+    text-align: center;
+}

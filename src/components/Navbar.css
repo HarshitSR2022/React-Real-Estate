@@ -1,0 +1,27 @@
+.navbar{
+    width: 100%;
+    background: transparent;
+    padding: 20px 100px;
+    overflow: hidden;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content ul a{
+    margin: 10px 20px;
+    outline: none;
+    text-decoration: none;
+    color: rgb(205, 205, 205);
+    cursor: pointer;
+}
+.content ul a:hover{
+    color: white;
+}
+.content button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.dd{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px;
+    object-fit: contain;
+    padding: 40px 20px;
+    height: 450px;
+    width: 400px;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration-thickness: 1px;
+    margin-bottom: 100px;
+}
+.testimonials-array{
+    display: flex;
+    gap: 20px;
+}
+.dd .i{
+    object-fit: contain;
+    overflow: hidden;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.dd p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.ddk img{
+    margin-bottom: 10px;
+}
